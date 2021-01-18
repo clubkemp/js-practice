@@ -22,4 +22,10 @@ const noDups =  (array) => {
 
 }
 
+// OR
+// const noDups =  (array) => {
+//     let result = [...new Set(array)]
+//     return result
+//   }
+
 noDups(test1);
